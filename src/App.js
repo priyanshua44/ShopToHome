@@ -45,10 +45,10 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route exact path="/ShopToHome" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/products" element={<FeaturedProduct />} />
-          <Route path="/products/:id" element={<SingleProduct />} />
+          <Route path="/ShopToHome/about" element={<About />} />
+          <Route path="/ShopToHome/contact" element={<Contact />} />
+          <Route path="/ShopToHome/products" element={<FeaturedProduct />} />
+          <Route path="/ShopToHome/products/:id" element={<SingleProduct />} />
         </Routes>
         <Newsletter />
         <Footer />
