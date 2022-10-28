@@ -40,11 +40,11 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Router>
+      <Router >
         <GlobalStyle />
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/ShopToHome" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<FeaturedProduct />} />
