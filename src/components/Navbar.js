@@ -22,11 +22,11 @@ const Navbar = () => {
         </div>
         <div className="nav-div">
           <nav ref={navRef}>
-            <NavLink to="/ShopToHome">Home</NavLink>
-            <NavLink to="/ShopToHome/about">About</NavLink>
-            <NavLink to="/ShopToHome/contact">Contact</NavLink>
-            <NavLink to="/ShopToHome/products">Product</NavLink>
-            <NavLink to="/ShopToHome/cart" className="navbar-link cart-trolley--link">
+            <NavLink to="/shoptohome">Home</NavLink>
+            <NavLink to="/shoptohome/about">About</NavLink>
+            <NavLink to="/shoptohome/contact">Contact</NavLink>
+            <NavLink to="/shoptohome/products">Product</NavLink>
+            <NavLink to="/shoptohome/cart" className="navbar-link cart-trolley--link">
               {" "}
               <FiShoppingCart className="cart-trolley" />{" "}
               <span className="cart-total--item"> 0 </span>{" "}

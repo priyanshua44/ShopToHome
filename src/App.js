@@ -45,12 +45,12 @@ const App = () => {
         <GlobalStyle />
         <Navbar />
         <Routes>
-          <Route exact path="/ShopToHome" element={<Home />} />
-          <Route exact path="/ShopToHome/about" element={<About />} />
-          <Route exact path="/ShopToHome/contact" element={<Contact />} />
-          <Route exact path="/ShopToHome/products" element={<FeaturedProduct />} />
-          <Route exact path="/ShopToHome/products/:id" element={<SingleProduct />} />
-          <Route exact path="/ShopToHome/cart" element={<Cart />} />
+          <Route exact path="/shoptohome" element={<Home />} />
+          <Route exact path="/shoptohome/about" element={<About />} />
+          <Route exact path="/shoptohome/contact" element={<Contact />} />
+          <Route exact path="/shoptohome/products" element={<FeaturedProduct />} />
+          <Route exact path="/shoptohome/products/:id" element={<SingleProduct />} />
+          <Route exact path="/shoptohome/cart" element={<Cart />} />
         </Routes>
         <Newsletter />
         <Footer />
