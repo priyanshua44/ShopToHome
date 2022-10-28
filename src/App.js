@@ -44,7 +44,7 @@ const App = () => {
         <GlobalStyle />
         <Navbar />
         <Routes>
-          <Route path="/ShopToHome" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/products" element={<FeaturedProduct />} />
