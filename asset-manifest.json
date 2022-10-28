@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ShopToHome/static/css/main.92c9aa1d.css",
-    "main.js": "/ShopToHome/static/js/main.c09c55c4.js",
+    "main.js": "/ShopToHome/static/js/main.a37f456d.js",
     "index.html": "/ShopToHome/index.html",
     "main.92c9aa1d.css.map": "/ShopToHome/static/css/main.92c9aa1d.css.map",
-    "main.c09c55c4.js.map": "/ShopToHome/static/js/main.c09c55c4.js.map"
+    "main.a37f456d.js.map": "/ShopToHome/static/js/main.a37f456d.js.map"
   },
   "entrypoints": [
     "static/css/main.92c9aa1d.css",
-    "static/js/main.c09c55c4.js"
+    "static/js/main.a37f456d.js"
   ]
 }
