@@ -41,7 +41,7 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Router basename="/ShopToHome" >
+      <Router >
         <GlobalStyle />
         <Navbar />
         <Routes>
