@@ -26,7 +26,7 @@ const Product = ({ menu }) => {
               <div className="price align-text-bottom">
                 <FormatPrice price={curElem.price} />
               </div>
-              <NavLink to={`/products/${curElem.id}`}>
+              <NavLink to={`/ShopToHome/products/${curElem.id}`}>
                 <Info>
                   <Icon>
                     <BsCart />

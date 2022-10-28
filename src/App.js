@@ -11,6 +11,7 @@ import { ThemeProvider } from "styled-components";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
+import Cart from "./components/Cart";
 
 const App = () => {
   const theme = {
@@ -40,15 +41,16 @@ const App = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Router >
+      <Router basename="/ShopToHome" >
         <GlobalStyle />
         <Navbar />
         <Routes>
           <Route exact path="/ShopToHome" element={<Home />} />
-          <Route path="/ShopToHome/about" element={<About />} />
-          <Route path="/ShopToHome/contact" element={<Contact />} />
-          <Route path="/ShopToHome/products" element={<FeaturedProduct />} />
-          <Route path="/ShopToHome/products/:id" element={<SingleProduct />} />
+          <Route exact path="/ShopToHome/about" element={<About />} />
+          <Route exact path="/ShopToHome/contact" element={<Contact />} />
+          <Route exact path="/ShopToHome/products" element={<FeaturedProduct />} />
+          <Route exact path="/ShopToHome/products/:id" element={<SingleProduct />} />
+          <Route exact path="/ShopToHome/cart" element={<Cart />} />
         </Routes>
         <Newsletter />
         <Footer />
